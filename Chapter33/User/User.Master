@@ -1,5 +1,4 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="User.master.cs" Inherits="Chapter33.User.User" %>
-
 <%@ Register Src="~/User/SliderUserControl.ascx" TagPrefix="uc1" TagName="SliderUserControl" %>
 
 
@@ -51,9 +50,15 @@
         });
 
     </script>
+    <style>
+        body{
+            background-color: #E7E7E7;
+    }
+</style>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
+
 <body>
     <form id="form1" runat="server">
       <div class="hero_area">
