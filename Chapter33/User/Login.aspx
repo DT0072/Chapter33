@@ -13,7 +13,6 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
     <section class="book_section layout_padding">
         <div class="container">
             <div class="heading_container">
@@ -55,10 +54,6 @@
                     </div>
                 </div>
             </div>
-
-
         </div>
-
     </section>
-
 </asp:Content>
